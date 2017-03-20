@@ -1,0 +1,501 @@
+-----------------------------------------
+2017/01/18 04:52:34
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 04:52:34
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 04:52:34
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 04:52:39
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 04:52:39
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 04:52:39
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:39
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:39
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:39
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:50
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:50
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 1,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:50
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:52
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:52
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 2,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:52
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:54
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:54
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 3,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:54
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:56
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:56
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:22:56
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:09
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:16
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:16
+SELECT * FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:16
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:16
+SELECT tag FROM tag WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:40
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:40
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:40
+update art set title='Hello World!!!',cat_id='5',content='Hello World!!!......杨己乐',lastup='1484720620',arttag='代码,程序员,jile' where art_id=2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:40
+DELETE FROM tag WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:40
+INSERT INTO tag (art_id, tag) VALUES (2,'代码'),(2,'程序员'),(2,'jile')
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:43
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:43
+SELECT * FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:43
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:43
+SELECT tag FROM tag WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:45
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:45
+SELECT * FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:45
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:45
+SELECT tag FROM tag WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:47
+SELECT COUNT(*) FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:47
+SELECT * FROM art WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:47
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:23:47
+SELECT tag FROM tag WHERE art_id = 2
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:03
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:03
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:03
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:07
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:07
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 3,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:07
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:09
+SELECT COUNT(*) FROM art WHERE 1 and art.cat_id = 5
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:09
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  and art.cat_id = 5 ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:09
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:10
+SELECT COUNT(*) FROM art WHERE 1 and art.cat_id = 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:10
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  and art.cat_id = 1 ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:10
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:32
+SELECT title, content, pubtime, catname, comm, pic, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:32
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:32
+SELECT * FROM comment WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT title, content, pubtime, catname, comm, pic, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+insert into comment (art_id,nick,content,email,pubtime,ip) values ('6','兴杨','66666666666666666666666666666666666','989979','1484720697','0')
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+UPDATE art SET comm = comm + 1 WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT * FROM comment WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT title, content, pubtime, catname, comm, pic, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 06:24:57
+SELECT * FROM comment WHERE art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 09:11:46
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:03:50
+SELECT COUNT(*) FROM art WHERE 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:03:50
+SELECT art_id, art.cat_id, user_id, nick, pubtime, title, content, cat.catname, comm, arttag, thumb FROM art LEFT JOIN cat ON art.cat_id = cat.cat_id WHERE 1  ORDER BY art_id DESC LIMIT 0,1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:03:50
+SELECT * FROM cat
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:04:00
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:04:32
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:04:37
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:05:41
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:05:42
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:05:50
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:06:39
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:06:49
+SELECT  * FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:07:24
+SELECT  COUNT(*) FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:07:25
+SELECT  COUNT(*) FROM user WHERE name = yjlAND password = yjl
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password = yjl' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:09:24
+SELECT  COUNT(*) FROM user WHERE name = 'yjl' AND password = 'yjl'
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:09:24
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:22
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:23
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:23
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:23
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:23
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:24
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:11:39
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:13:17
+SELECT  COUNT(*) FROM user WHERE name = 'yjl' AND password = 'yjl'
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:13:55
+SELECT  * FROM user WHERE name = 'yjl' AND password = 'yjl'
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:13:55
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:18:39
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:18:55
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:18:56
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:19:01
+SELECT  * FROM user WHERE name = 'yjl' AND password = 'yjl'
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:19:01
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+
+-----------------------------------------
+2017/01/18 12:58:54
+SELECT art.*, cat.catname FROM art, cat WHERE art.cat_id = cat.cat_id;
+-----------------------------------------
+

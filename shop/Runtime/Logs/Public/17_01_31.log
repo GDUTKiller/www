@@ -1,0 +1,185 @@
+[ 2017-01-31T21:30:14+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:14+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:14+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:14+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-31T21:30:16+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-31T21:30:16+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-31T21:30:16+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-31T21:30:16+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-31T21:30:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-01-31T21:30:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:19+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:19+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-31T21:30:19+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-01-31T21:30:19+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:19+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-31T21:30:21+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:21+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:30:21+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-31T21:30:21+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:34:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-31T21:34:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:34:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-31T21:34:17+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-31T21:34:18+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:34:18+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-31T21:34:18+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-31T21:34:18+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-31T21:36:43+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:36:43+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:36:43+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-31T21:36:43+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:36:50+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d924ae3cab.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-31T21:36:50+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d918d1b631.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-31T21:36:50+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d9227497c5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-31T21:36:50+08:00 ] 127.0.0.1 /index.php/Public/Upload/Thumb/2017-01-29/588d905e48799.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+

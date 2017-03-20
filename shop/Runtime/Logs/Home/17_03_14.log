@@ -1,0 +1,523 @@
+[ 2017-03-14T11:29:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot=1 ) ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 86 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant thumb_img - assumed 'thumb_img' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 200 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant thumb_img - assumed 'thumb_img' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 200 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant thumb_img - assumed 'thumb_img' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 200 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant thumb_img - assumed 'thumb_img' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 198 行.
+NOTIC: [8] Use of undefined constant market_price - assumed 'market_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 200 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\wamp64\www\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T11:29:32+08:00 ] 127.0.0.1 /Home/cat/cat/cat_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`thumb_img`,`market_price` FROM `goods` WHERE ( cat_id=5 ) LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-14T11:29:32+08:00 ] 127.0.0.1 /Home/cat/cat/cat_id/themes/68ecshop_hechafree/images/sdgg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:32+08:00 ] 127.0.0.1 /Home/cat/cat/cat_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+ERR: 1054:Unknown column 'api' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=api ) LIMIT 1  
+
+[ 2017-03-14T11:29:32+08:00 ] 127.0.0.1 /Home/cat/cat/cat_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`thumb_img`,`market_price` FROM `goods` WHERE ( cat_id=5 ) LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:32+08:00 ] 127.0.0.1 /Home/cat/cat/cat_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( cat_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_name`,`shop_price`,`thumb_img`,`market_price` FROM `goods` WHERE ( cat_id=5 ) LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:39+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='41' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:39+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:40+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:29:40+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='41' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:40+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='41' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:44+08:00 ] 127.0.0.1 /Home/Order/add/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-14T11:29:44+08:00 ] 127.0.0.1 /Home/Order/checkout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: market_price C:\wamp64\www\shop\Runtime\Cache\Home\1fea8479345464b916d6a0d6e13603cd.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:29:44+08:00 ] 127.0.0.1 /Home/Order/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:api
+
+[ 2017-03-14T11:29:49+08:00 ] 127.0.0.1 /Home/Order/done.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ordinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_id C:\wamp64\www\shop\Home\Controller\OrderController.class.php 第 39 行.
+NOTIC: [8] Undefined index: validate C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ordinfo` (`ord_sn`,`user_id`,`money`,`ordtime`) VALUES ('201703142226','0','124','1489462189') [ RunTime:0.0010s ]
+SQL: INSERT INTO `ordgoods` (`ordinfo_id`,`goods_id`,`goods_name`,`shop_price`) VALUES ('8','41','提莫2','124.00') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:29:49+08:00 ] 127.0.0.1 /Home/Order/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:api
+
+[ 2017-03-14T11:29:52+08:00 ] 127.0.0.1 /Home/Order/api/cron.php-t=1452023217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:api
+
+[ 2017-03-14T11:29:54+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='41' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:29:54+08:00 ] 127.0.0.1 /Home/goods/goods/goods_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='41' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 79 行.
+NOTIC: [8] Use of undefined constant goods_name - assumed 'goods_name' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 115 行.
+NOTIC: [8] Use of undefined constant goods_desc - assumed 'goods_desc' C:\wamp64\www\shop\Runtime\Cache\Home\4b285c522b6ad877f6a5a13ff3f9c885.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

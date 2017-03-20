@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    min-height: 900px;
+    min-width: 900px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    height: 70px;
+    background-color: blue;
+}
+
+.header .system{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.header .datetime {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+}
+
+.header .login {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: red;
+}
+
+.tab{
+    position: relative;
+    height: 50px;
+    background-color: yellow;
+}
+
+.tab ul{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.tab ul li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.tab ul li a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: pink;
+    margin: 0 auto;
+    width: 1500px;
+    height: 500px;
+    position: relative;
+}
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.entering{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cashier{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stock{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sale{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.repertory{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.staff{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
