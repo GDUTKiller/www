@@ -4,31 +4,38 @@ use Think\Model;
 class UsersModel extends Model {
     //自动验证
     protected $_validate = array(
-        array('username', '/\w{6,16}/', '用户名6-16位，数字字母下划线组成', 1, 'regex', 3),
-        array('email', 'email', 'email`s format is wrong', 1, '', 3),
-        array('password', '6,16', '密码在6-16位', 1, 'length', 3),
-        array('repwd', 'password', 'two password is the same', 1, 'confirm', 3),
-        array('username', '', '用户名已经存在了', 1, 'unique', 3)
+        array('mobile', '/^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$/', 'mobile format is wrong', 1, 'regex', 1),
+        array('mobile', '', 'mobile already exists', 1, 'unique', 1),
+        array('password', '/^[0-9a-zA-Z_]{8,20}$/', 'password format error', 1, 'regex', 1),
+        array('name', '/^[\x{4e00}-\x{9fa5}]+$/u', 'name must be chinese', 1, 'regex', 1),
+        array('mobile', '/^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$/', 'mobile format is wrong', 1, 'regex', 4), // 4代表登录时验证
+        array('mobile', 'isExist', 'mobile does not exist', 1, 'callback', 4), // 4代表登录时验证
+        array('password', 'checkPass', 'password error', 1, 'callback', 4), // 4代表登录时验证
+
     );
 
+    /**
+     * 注册
+     * @return [type] [description]
+     */
     public function reg() {
         $this->encPass();
         return $this->add();
     }
 
     /**
-    * 对明文密码加盐md5
-    * @return 加密后的md5密码
-    */
+     * 对明文密码加盐md5
+     * @return 加密后的md5密码
+     */
     protected function encPass() {
         $this->salt();
         return $this->password = md5($this->password . $this->salt);
     }
 
     /**
-    * 创建用户的盐
-    * @return 盐
-    */
+     * 创建用户的盐
+     * @return 盐
+     */
     public function salt() {
         if(!$this->salt) {
             $this->salt = $this->randStr();
@@ -37,17 +44,31 @@ class UsersModel extends Model {
     }
 
     /**
-    * @return 一个混乱的字符串
-    */
+     * 返回一个随机字符串
+     * @param  integer $length=8 [description]
+     * @return string          [description]
+     */
     protected function randStr($length = 8) {
         $str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
         return substr(str_shuffle($str), 0, $length);
     }
 
     /**
-    * 判断密码是否正确
-    * @return bool
-    */
+     * 手机号码是否存在于数据库中
+     * @param  str  $mobile [description]
+     * @return boolean
+     */
+    public function isExist($mobile) {
+        if(!$this->where(array('mobile'=>$mobile))->find()) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * 判断密码是否正确
+     * @return bool
+     */
     public function checkPass($password) {
         //原本的密码
         $selfpass = $this->password;
@@ -64,27 +85,44 @@ class UsersModel extends Model {
     }
 
     /**
-    * 登录
-    */
+     * 登录
+     */
     public function auth() {
-        cookie('user_id', $this->user_id);
-        cookie('username', $this->username);
-        cookie('ccode', encCookie($this->user_id, $this->username));
+        cookie('id', $this->id);
+        cookie('mobile', $this->mobile);
+        cookie('ccode', $this->encCookie($this->id, $this->mobile));
         return true;
     }
 
     /**
-    * 退出登录
-    */
+     * 退出登录
+     */
     public function revoke() {
-        cookie('user_id', null);
-        cookie('username', null);
+        cookie('id', null);
+        cookie('name', null);
+        cookie('ccode', null);
     }
 
     /**
-    * 加密cookie
-    */
-    function encCookie($user_id, $username) {
-        return md5($user_id . '|' . $username . '|' . C('COO_KEY'));
+     * 加密cookie
+     */
+    public function encCookie($id, $mobile) {
+        return md5($id . '|' . $mobile . '|' . C('COO_KEY'));
+    }
+
+    /**
+     * 是否已经登录
+     * @return boolean
+     */
+    public function acc() {
+        if(empty(cookie('id')) || empty(cookie('mobile')) || empty(cookie('ccode')) ) {
+            return false;
+        }
+
+        if(md5(cookie('id') . '|' . cookie('mobile') . '|' . C('COO_KEY')) !== cookie('ccode') ) {
+            return false;
+        }
+
+        return true;
     }
 }

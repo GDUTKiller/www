@@ -2,7 +2,7 @@
 -- 表的结构 `user`
 --
 
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `mobile` char(20) NOT NULL DEFAULT '',
   `password` char(32) NOT NULL DEFAULT '',
