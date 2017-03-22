@@ -11,7 +11,6 @@ class UsersModel extends Model {
         array('mobile', '/^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$/', 'mobile format is wrong', 1, 'regex', 4), // 4代表登录时验证
         array('mobile', 'isExist', 'mobile does not exist', 1, 'callback', 4), // 4代表登录时验证
         array('password', 'checkPass', 'password error', 1, 'callback', 4), // 4代表登录时验证
-
     );
 
     /**
