@@ -1,7 +1,7 @@
 <?php
 namespace Home\Tool;
 class SmsTool {
-    public $BASE_URL = '',
+    private $BASE_URL = '',
            $ACCOUNT_SID = '',
            $AUTH_TOKEN = '',
            $CONTENT_TYPE = '',
@@ -37,7 +37,7 @@ class SmsTool {
      *            请求的功能和操作
      * @return
      */
-    public function createUrl($funAndOperate) {
+    private function createUrl($funAndOperate) {
         // 时间戳
         date_default_timezone_set("Asia/Shanghai");
         $timestamp = date("YmdHis");
@@ -45,16 +45,7 @@ class SmsTool {
         return $this->BASE_URL . $funAndOperate;
     }
 
-    public function createSig() {
-
-        $timestamp = date("YmdHis");
-
-        // 签名
-        $sig = md5($this->ACCOUNT_SID . $this->AUTH_TOKEN . $timestamp);
-        return $sig;
-    }
-
-    public function createBasicAuthData() {
+    private function createBasicAuthData() {
         $timestamp = date("YmdHis");
         // 签名
         $sig = md5($this->ACCOUNT_SID . $this->AUTH_TOKEN . $timestamp);
@@ -66,7 +57,7 @@ class SmsTool {
      * @param body
      * @return
      */
-    public function createHeaders() {
+    private function createHeaders() {
 
         $headers = array('Content-type: ' . $this->CONTENT_TYPE, 'Accept: ' . $this->ACCEPT);
 
@@ -83,16 +74,16 @@ class SmsTool {
      * @return
      * @throws IOException
      */
-    public function post($funAndOperate, $body) {
+    private function post($funAndOperate, $body) {
 
         // 构造请求数据
         $url = $this->createUrl($funAndOperate);
         $headers = $this->createHeaders();
 
-        echo("url:<br/>" . $url . "\n");
-        echo("<br/><br/>body:<br/>" . json_encode($body));
-        echo("<br/><br/>headers:<br/>");
-        var_dump($headers);
+        // echo("url:<br/>" . $url . "\n");
+        // echo("<br/><br/>body:<br/>" . json_encode($body));
+        // echo("<br/><br/>headers:<br/>");
+        // var_dump($headers);
 
         // 要求post请求的消息体为&拼接的字符串，所以做下面转换
         $fields_string = "";
@@ -132,8 +123,9 @@ class SmsTool {
         $body['to'] = $mobile;
 
         // 提交请求
-        $result = $this->post($funAndOperate, $body);
-        echo("<br/>result:<br/><br/>");
-        var_dump($result);
+        // $result =
+        return $this->post($funAndOperate, $body);
+        // echo("<br/>result:<br/><br/>");
+        // var_dump($result);
     }
 }

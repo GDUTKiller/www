@@ -9,8 +9,11 @@ CREATE TABLE IF NOT EXISTS `users` (
   `pid` int(11) unsigned NOT NULL DEFAULT 0,
   `name` char(20) NOT NULL DEFAULT '',
   `last_login` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `last_up` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '上次修改用户时间',
+  `register` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `salt` char(6) NOT NULL DEFAULT '' COMMENT '盐,保护用户密码安全',
+  `avatar` varchar(100) NOT NULL DEFAULT '' COMMENT '用户头像',
+  `sex` varchar(6) NOT NULL DEFAULT'male',
+  `birthday` datetime NOT NULL DEFAULT ''2000-01-01 00:00:00,
   PRIMARY KEY (`id`),
   UNIQUE KEY `mobile` (`mobile`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;

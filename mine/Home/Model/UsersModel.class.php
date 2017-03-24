@@ -4,14 +4,18 @@ use Think\Model;
 class UsersModel extends Model {
     //自动验证
     protected $_validate = array(
+        //新增数据时验证,即注册用户
         array('mobile', '/^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$/', 'mobile format is wrong', 1, 'regex', 1),
         array('mobile', '', 'mobile already exists', 1, 'unique', 1),
         array('password', '/^[0-9a-zA-Z_]{8,20}$/', 'password format error', 1, 'regex', 1),
-        array('name', '/^[\x{4e00}-\x{9fa5}]+$/u', 'name must be chinese', 1, 'regex', 1),
+        array('name', '/^[\x{4e00}-\x{9fa5}a-zA-Z]{2,10}$/u', 'name must be chinese', 1, 'regex', 1),
+
+        //登录时候验证
         array('mobile', '/^1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$/', 'mobile format is wrong', 1, 'regex', 4), // 4代表登录时验证
         array('mobile', 'isExist', 'mobile does not exist', 1, 'callback', 4), // 4代表登录时验证
         array('password', 'checkPass', 'password error', 1, 'callback', 4), // 4代表登录时验证
     );
+
 
     /**
      * 注册
@@ -26,7 +30,7 @@ class UsersModel extends Model {
      * 对明文密码加盐md5
      * @return 加密后的md5密码
      */
-    protected function encPass() {
+    public function encPass() {
         $this->salt();
         return $this->password = md5($this->password . $this->salt);
     }
